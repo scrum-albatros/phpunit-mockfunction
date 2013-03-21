@@ -1,0 +1,29 @@
+{
+    "name": "scrum-albatros/phpunit-mockfunction",
+    "description": "PHP Unit mock function",
+    "type": "library",
+    "keywords": [
+        "phpcs",
+        "standards"
+    ],
+    "homepage": "",
+    "license": "",
+    "authors": [
+    ],
+    "support": {
+        "issues": "",
+        "source": "https://github.com/scrum-albatros/phpunit-mockfunction"
+    },
+    "autoload": {
+        "classmap": [
+		"PHPUnit/Extensions/MockFunction.php",
+		"PHPUnit/Extensions/MockStaticMethod.php"
+        ]
+    },
+    "require": {
+	"phpunit/phpunit": "3.7.*",
+    },
+    "bin": [
+        "scripts/phpcs"
+    ]
+}
